@@ -537,32 +537,29 @@ li {
   margin-bottom: 0.75em; }
 
 .grid__col--6.theme__colors {
-  background-color: #6159D4;
-  width: 100%; }
+  background-color: #6159D4; }
 
 .grid__col--4.theme__colors {
-  background-color: #61EAED;
-  width: 100%; }
+  background-color: #61EAED; }
 
 .grid__col--5.theme__colors {
-  background-color: #15C12E;
-  width: 100%; }
+  background-color: #15C12E; }
 
 .grid__col--7.theme__colors {
-  background-color: #DA778D;
-  width: 100%; }
+  background-color: #DA778D; }
 
 .grid__col--8.theme__colors {
-  background-color: #F07E47;
-  width: 100%; }
+  background-color: #F07E47; }
 
 .grid__col--3.theme__colors {
-  background-color: #D459C9;
-  width: 100%; }
+  background-color: #D459C9; }
 
 .grid__col--12.theme__colors {
-  background-color: #7FEBCD;
-  width: 100%; }
+  background-color: #7FEBCD; }
+
+@media (min-width: 481px) {
+  .grid__col--7.centered {
+    margin: 0 auto; } }
 
 .grid__row {
   margin-bottom: 2.5em; }
