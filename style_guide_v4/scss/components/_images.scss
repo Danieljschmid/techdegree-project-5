@@ -1,0 +1,48 @@
+//=====
+//Images
+//=====
+
+.img {
+  &--frame,
+  &--avatar {
+    margin-bottom: em(24px);
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+ .grid__col--3 a {
+  display: flex;
+  justify-content: center;
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+.img {
+  &--frame {
+    padding: em(3px);
+    border: 1px solid $grey;
+    display: block;
+    margin: 0 auto;
+    margin-top: em(20px);
+  }
+  &--avatar {
+    display: block;
+    margin: 0 auto;
+    margin-top: em(20px);
+  }
+}
+
+.img--logo {
+  @include img-repl("logo.png", 105px, 50px, block);
+  align-self: center;
+
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+    align-self: flex-start;
+    display: inline-block;
+  }
+}

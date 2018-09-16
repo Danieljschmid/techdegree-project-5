@@ -1,0 +1,117 @@
+
+// Descriptive Colors
+$white            : #fff;
+$grey             : #878787;
+$black            : #000;
+
+$turquoiseblue    : #61EAED;
+$riptide          : #7FEBCD;
+$emerald          : #42D767;
+$charm            : #DA778D;
+$jaffa            : #F07E47;
+$seance           : #7622A0;
+$indigo           : #6159D4;
+$orchid           : #D459C9;
+$malachite        : #15C12E;
+
+//Functional Colors
+
+$color-prim         : $riptide;
+$color-sec          : $turquoiseblue;
+
+$color-text-light   : $white;
+$color-text-base    : $grey;
+$color-text-dark    : $black;
+
+$color-border       : $color-prim;
+
+$ui-colors: (
+  default   : $color-sec,
+  success   : $emerald,
+  error     : $charm,
+  warning   : $jaffa,
+  info      : $seance,
+);
+
+// grid $colors
+
+$grid-col-12   :  $color-prim;
+$grid-col-6    :  $indigo;
+$grid-col-4    :  $color-sec;
+$grid-col-3    :  $orchid;
+$grid-col-5    :  $malachite;
+$grid-col-7    :  $charm;
+$grid-col-8    :  $jaffa;
+
+// $color-butn-default : $color-sec;
+// $color-butn-success : $emerald;
+// $color-butn-error   : $charm;
+// $color-butn-warning : $jaffa;
+// $color-butn-info    : $seance;
+
+$color-link-default : $color-sec;
+
+$color-nav-active   : $color-prim;
+
+//Text
+
+$base__font-size    : 16px;
+$base__line         : 24px;
+
+//Font Stacks
+
+$font-url--google    : 'https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,400i,700,900';
+$font-family--primary: 'Montserrat', sans-serif;
+
+//Font Weights
+
+$font-weight--thin      : 100;
+$font-weight--light     : 300;
+$font-weight--medium    : 400;
+$font-weight--bold      : 700;
+$font-weight--ultra-bold: 900;
+
+//Border Radius
+
+$br                 : 5px;
+
+//Transitions
+
+$trns-duration   : .3s;
+
+//Breakpoints
+
+$breakpoint-sm      : 1px;
+$breakpoint-md      : 480px;
+$breakpoint-lg      : 1400px;
+
+//Path to assets
+
+$path--rel          : "../../images";
+
+//grid
+
+$g-col-width       : 65px;
+$g-gutter-width    : 20px;
+$g-col-count       : 12;
+$g-cont-max-w      : 1050px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

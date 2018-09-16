@@ -1,0 +1,57 @@
+
+//Mixins
+
+@mixin bg-colors($map) {
+  @each $theme, $color in $map {
+      &--#{$theme} {
+        background-color: $color;
+      }
+  }
+}
+
+@mixin img-repl($img, $w, $h, $display: block) {
+  background-image: url('#{$path--rel}/#{$img}');
+  background-repeat: no-repeat;
+  width: $w;
+  height: $h;
+  display: $display;
+}
+
+//Bem Selectors
+
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+//media queries
+
+@mixin mq($break) {
+  @if $break =='small' {
+    @media (min-width: $breakpoint-sm) and ($max-width: $breakpoint-lg){
+      @content
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

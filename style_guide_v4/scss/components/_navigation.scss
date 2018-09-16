@@ -1,0 +1,38 @@
+//======
+//Nav
+//======
+
+.nav {
+  margin-top: em(20px);
+  margin-bottom: em(30px);
+  text-align: center;
+
+  @include e(item) {
+    @extend %nav-item-disp;
+    a {
+      @extend %nav-item-link;
+      color: $grey;
+    }
+
+    a:hover {
+      @extend %nav-item-on;
+    }
+  }
+}
+
+// nav,
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $breakpoint-md) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.nav__item {
+  margin-top: em(10px);
+
+}
