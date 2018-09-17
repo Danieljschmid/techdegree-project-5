@@ -14,7 +14,7 @@
  .grid__col--3 a {
   display: flex;
   justify-content: center;
-  @media (min-width: $breakpoint-md) {
+  @include mq(medium) {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -40,7 +40,7 @@
   @include img-repl("logo.png", 105px, 50px, block);
   align-self: center;
 
-  @media (min-width: $breakpoint-md) {
+  @include mq(medium) {
     flex-direction: row;
     align-self: flex-start;
     display: inline-block;
